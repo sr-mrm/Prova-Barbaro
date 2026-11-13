@@ -76,15 +76,14 @@ a:hover {
 
 .platform-bar {
     width: 100%;
-    height: 76px;
+    height: 73px;
     background: #fff;
+    padding: 8px 16px;
 }
 
 .platform-bar-inner {
-    width: 100%;
-    height: 76px;
     margin: 0;
-    padding: 8px 16px;
+    padding: 8px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,9 +92,9 @@ a:hover {
 
 .platform-logo {
     display: block;
-    width: 375px;
-    height: 50;
-    max-width: none;
+    height: 45px;
+    width: auto;
+    max-width: 100%;
     object-fit: contain;
 }
 
@@ -380,21 +379,20 @@ a:hover {
         flex: none;
         width: 100%;
     }
-}
+    
+    .platform-bar-inner {
+        padding: 8 12px;
+    }
 
-.platform-bar-inner {
-    padding: 8 12px;
-}
+    .platform-logo {
+        width: min(65vw, 400px);
+        height: auto;
+    }
 
-.platform-logo {
-    width: min(65vw, 400px);
-    height: auto;
-}
-
-.login-button {
-    padding: 7px 16px;
-}
-
+    .login-button {
+        padding: 7px 16px;
+    }
+  }
 
 
 /* ========================================
