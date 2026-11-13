@@ -222,7 +222,7 @@ a:hover {
     flex-wrap: wrap;
     min-height: 48px;
     max-width: var(--content);
-    margin: 18px auto;
+    margin-left: 140px;
     padding: 0;
 }
 
@@ -257,13 +257,14 @@ a:hover {
 
 .page-shell {
     max-width: var(--content);
-    margin: 9px auto 56px;
+    margin-left: 140px;
+    margin-bottom: 20px;
     padding: 0px;
 }
 
 .article {
     background: var(--surface);
-    padding: clamp(16px, 3vw, 54px);
+    padding: clamp(8px, 3vw, 54px);
     border: 1px solid #e8ebed;
     box-shadow: 0 1px 3px rgba(30, 45, 55, .035);
     overflow-wrap: anywhere;
