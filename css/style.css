@@ -76,9 +76,9 @@ a:hover {
 
 .platform-bar {
     width: 100%;
-    height: 73px;
+    height: 69px;
     background: #fff;
-    padding: 8px 16px;
+    padding: 4px 14px;
 }
 
 .platform-bar-inner {
@@ -166,24 +166,24 @@ a:hover {
 
 .archive-banner {
     width: 100%;
-    height: 67px;
+    height: 58px;
     background-color: #98b09e;
 }
 
 .archive-banner-inner {
     max-width: var(--content);
-    height: 67px;
-    margin: 0 auto;
-    padding: 0px;
+    height: 58px;
+    margin-left: 140px;
     display: flex;
     align-items: center;
 }
 
 .archive-logo {
     display: block;
-    height: 67px;
     width: auto;
+    height: 50px;
     max-width: 100%;
+    padding: 10px 0px;
     object-fit: contain;
     object-position: left center;
 }
@@ -199,11 +199,13 @@ a:hover {
 .project-title {
     display: block;
     max-width: var(--content);
-    margin: 0 auto 18px;
-    font-size: 42px;
+    margin-left: 117px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    font-size: 39px;
     font-weight: 700;
-    letter-spacing: -.025em;
     color: var(--title-color);
+
 }
 
 .project-title:hover {
