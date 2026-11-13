@@ -81,13 +81,15 @@ a:hover {
 }
 
 .platform-bar-inner {
-    width: 100%;
+    width: 1073.78px;
     height: 76px;
     margin: 0;
     padding: 8px 16px;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    line-height: 24px;
     box-sizing: border-box;
 }
 
