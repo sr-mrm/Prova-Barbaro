@@ -95,8 +95,8 @@ a:hover {
 
 .platform-logo {
     display: block;
-    width: 400px;
-    height: auto;
+    width: 375px;
+    height: 50;
     max-width: none;
     object-fit: contain;
 }
